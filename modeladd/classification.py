@@ -52,12 +52,12 @@ def my_lightgbm(x_train, x_test, y_train, y_test):
     roc_auc = roc_auc_score(y_test, clf.predict_proba(x_test)[:, 1])
     recall = recall_score(y_test, test_predict)
     f1 = f1_score(y_test, test_predict)
-    precision = precision_score(y_test, test_predict)  # 计算精确率
+    precision = precision_score(y_test, test_predict)  
 
     conf_matrix = confusion_matrix(y_test, test_predict)
     print('Best Round:', best_round)
     print('Train Accuracy:', train_accuracy)
-    print('Precision:', precision)  # 输出精确率
+    print('Precision:', precision)  
     print('Test Accuracy:', test_accuracy)
     print('AUC:', roc_auc)
     print('Recall:', recall)
@@ -75,7 +75,7 @@ if __name__ == '__main__':
     confidences1 = data[confidence_columns1].values
     confidences2 = data[confidence_columns2].values
 
-    ground_truth = data["label"].values  # 获取标签列的值并转换为 numpy 数组
+    ground_truth = data["label"].values  
 
     # The mean and standard deviation of positive and negative examples are calculated
     mean_positive1 = np.mean(confidences1[ground_truth == 1])
@@ -167,7 +167,6 @@ if __name__ == '__main__':
     df2 = pd.read_csv(output_path_eth)
     df1 = pd.read_csv(output_path_ted)
 
-    # 归一化
     sum1 = 0
     for i in range(len(diff1)):
         sum1 = sum1 + diff1[i]
