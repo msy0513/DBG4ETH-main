@@ -9,7 +9,7 @@ For software configuration, all model are implemented in
 - Python 3.9
 - Torch 2.1.1
 - Pytorch-Geometric 2.4.0
-- CUDA 12.2
+- CUDA 12.1
 - scikit-learn 1.2.0
 - lightgbm 4.1.0
 
