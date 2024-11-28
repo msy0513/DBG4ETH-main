@@ -44,3 +44,15 @@ target_labels = ['Exchange', 'ICO Wallets', 'Mining', 'Phishing', 'Bridge', 'DeF
 $ cd modeladd
 $ python classification.py
 ```
+
+## Citation
+If you find this work useful, please cite the following:
+  ```bash
+@article{zhou2022behavior,
+  title={Know Your Account: Double Graph Inference-based Account De-anonymization on Ethereum},
+  author={Miao, Shuyi and Qiu, Wangjie and Zheng, Hongwei and Zhang, Qinnan and Tu, Xiaofan and Liu, Xunan and Liu, Yang and Dong, Jin and Zheng，zhiming},
+  booktitle={2025 IEEE 41rd International Conference on Data Engineering (ICDE)},
+  year={2025},
+  publisher={IEEE}
+}
+  ```
