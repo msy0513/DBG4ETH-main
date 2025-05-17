@@ -49,11 +49,13 @@ $ python classification.py
 ## Citation
 If you find this work useful, please cite the following:
   ```bash
-@article{
-  title={Know Your Account: Double Graph Inference-based Account De-anonymization on Ethereum},
-  author={Miao, Shuyi and Qiu, Wangjie and Zheng, Hongwei and Zhang, Qinnan and Tu, Xiaofan and Liu, Xunan and Liu, Yang and Dong, Jin and Zheng，zhiming},
-  booktitle={2025 IEEE 41rd International Conference on Data Engineering (ICDE)},
-  year={2025},
-  publisher={IEEE}
+@INPROCEEDINGS {,
+author = { Miao, Shuyi and Qiu, Wangjie and Zheng, Hongwei and Zhang, Qinnan and Tu, Xiaofan and Liu, Xunan and Liu, Yang and Dong, Jin and Zheng, Zhiming },
+booktitle = { 2025 IEEE 41st International Conference on Data Engineering (ICDE) },
+title = {{ Know Your Account: Double Graph Inference-Based Account De-Anonymization on Ethereum }},
+year = {2025},
+volume = {},
+ISSN = {2375-026X},
+pages = {1305-1319},
 }
   ```
