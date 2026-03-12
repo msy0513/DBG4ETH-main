@@ -50,12 +50,12 @@ $ python classification.py
 If you find this work useful, please cite the following:
   ```bash
 @INPROCEEDINGS {,
-author = { Miao, Shuyi and Qiu, Wangjie and Zheng, Hongwei and Zhang, Qinnan and Tu, Xiaofan and Liu, Xunan and Liu, Yang and Dong, Jin and Zheng, Zhiming },
-booktitle = { 2025 IEEE 41st International Conference on Data Engineering (ICDE) },
-title = {{ Know Your Account: Double Graph Inference-Based Account De-Anonymization on Ethereum }},
-year = {2025},
+author = { Miao, Shuyi and Qiu, Wangjie and Tu, Xiaofan and Li, Yunze and Wen, Yongxin and Zheng, Zhiming },
+booktitle = { IEEE Transactions on Information Forensics & Security },
+title = {{ Tracing Your Account: A Gradient-Aware Dynamic Window Graph Framework for Ethereum under Privacy-Preserving Services}},
+year = {2026},
 volume = {},
-ISSN = {2375-026X},
-pages = {1305-1319},
+ISSN = {},
+pages = {},
 }
   ```
